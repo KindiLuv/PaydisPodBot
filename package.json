@@ -1,0 +1,22 @@
+{
+  "name": "corebot",
+  "version": "1.0.0",
+  "description": "The core essence of the bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaydiLuv/PaydisPodBot.git"
+  },
+  "author": "Paydi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaydiLuv/PaydisPodBot/issues"
+  },
+  "homepage": "https://github.com/PaydiLuv/PaydisPodBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
