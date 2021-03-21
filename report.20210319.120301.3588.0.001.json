@@ -1,0 +1,379 @@
+
+{
+  "header": {
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210319.120301.3588.0.001.json",
+    "dumpEventTime": "2021-03-19T12:03:01Z",
+    "dumpEventTimeStamp": "1616151781884",
+    "processId": 3588,
+    "cwd": "C:\\Users\\Pocky\\OneDrive\\Documents\\GitHub\\PaydisPodBot",
+    "commandLine": [
+      "node",
+      "app.js"
+    ],
+    "nodejsVersion": "v12.5.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.5.0",
+      "v8": "7.5.288.22-node.14",
+      "uv": "1.29.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.38.0",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.5.0/node-v12.5.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.5.0/node-v12.5.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.5.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19041",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 10210234,
+        "nice": 0,
+        "sys": 5608375,
+        "idle": 49265343,
+        "irq": 1244687
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 10210234,
+        "nice": 0,
+        "sys": 5608375,
+        "idle": 49265343,
+        "irq": 1244687
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 10210234,
+        "nice": 0,
+        "sys": 5608375,
+        "idle": 49265343,
+        "irq": 1244687
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 10210234,
+        "nice": 0,
+        "sys": 5608375,
+        "idle": 49265343,
+        "irq": 1244687
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 10210234,
+        "nice": 0,
+        "sys": 5608375,
+        "idle": 49265343,
+        "irq": 1244687
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 10210234,
+        "nice": 0,
+        "sys": 5608375,
+        "idle": 49265343,
+        "irq": 1244687
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 10210234,
+        "nice": 0,
+        "sys": 5608375,
+        "idle": 49265343,
+        "irq": 1244687
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 10210234,
+        "nice": 0,
+        "sys": 5608375,
+        "idle": 49265343,
+        "irq": 1244687
+      }
+    ],
+    "host": "DESKTOP-C7C4TQ9"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff73a1c6e09",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10889"
+    },
+    {
+      "pc": "0x00007ff73a1ca704",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+25476"
+    },
+    {
+      "pc": "0x00007ff73a1c9728",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+21416"
+    },
+    {
+      "pc": "0x00007ff73a2b2f5b",
+      "symbol": "v8::base::CPU::has_sse+38011"
+    },
+    {
+      "pc": "0x00007ff73aa97e2e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff73aa8017a",
+      "symbol": "v8::SharedArrayBuffer::Externalize+842"
+    },
+    {
+      "pc": "0x00007ff73a91197c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff73a9255ad",
+      "symbol": "v8::internal::Factory::AllocateRawFixedArray+61"
+    },
+    {
+      "pc": "0x00007ff73a92d074",
+      "symbol": "v8::internal::Factory::NewFixedArrayWithFiller+52"
+    },
+    {
+      "pc": "0x00007ff73a92d031",
+      "symbol": "v8::internal::Factory::NewFixedArray+65"
+    },
+    {
+      "pc": "0x00007ff73a97a63e",
+      "symbol": "v8::debug::Script::GetIsolate+5614"
+    },
+    {
+      "pc": "0x00007ff73a70e953",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+181731"
+    },
+    {
+      "pc": "0x00007ff73ab40b1d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+614605"
+    },
+    {
+      "pc": "0x00000275689d7218",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2448490496,
+    "totalCommittedMemory": 2448490496,
+    "usedMemory": 2412861048,
+    "availableMemory": 18084848,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261832,
+        "used": 31960,
+        "available": 229872
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16757248,
+        "used": 0,
+        "available": 16757248
+      },
+      "old_space": {
+        "memorySize": 6172672,
+        "committedMemory": 6172672,
+        "capacity": 6065248,
+        "used": 4967520,
+        "available": 1097728
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 425984,
+        "capacity": 225696,
+        "used": 225696,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 790528,
+        "committedMemory": 790528,
+        "capacity": 412480,
+        "used": 412480,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 1504722944,
+        "committedMemory": 1504722944,
+        "capacity": 1504709056,
+        "used": 1504709056,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3456,
+        "used": 3456,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 902512640,
+        "committedMemory": 902512640,
+        "capacity": 902510880,
+        "used": 902510880,
+        "available": 0
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 9.328,
+    "kernelCpuSeconds": 1.531,
+    "cpuConsumptionPercent": 77.5643,
+    "maxRss": 2466418688,
+    "pageFaults": {
+      "IORequired": 1358246,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 258,
+      "writes": 6
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "=C:": "C:\\Users\\Pocky\\OneDrive\\Documents\\GitHub\\PaydisPodBot",
+    "=ExitCode": "C000013A",
+    "aliases": "C:\\laragon\\bin\\cmder\\config\\user-aliases.cmd",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Pocky\\AppData\\Roaming",
+    "architecture": "64",
+    "CATALINA_HOME": "C:\\Users\\Pocky\\OneDrive\\Documents\\Cours\\Periode-2\\Jakarta\\apache-tomcat-9.0.41",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132545883604424870",
+    "CMDER_ROOT": "C:\\laragon\\bin\\cmder",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-C7C4TQ9",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DOCUMENT_ROOT": "C:/laragon/www",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "FULL_TITLE": "\"C:\\Users\\Pocky\\OneDrive\\Documents\\GitHub\\PaydisPodBot\"",
+    "GIT_INSTALL_ROOT": "C:\\laragon\\bin\\cmder\\..\\git",
+    "HOME": "C:\\Users\\Pocky",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Pocky",
+    "IntelliJ IDEA": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2020.3.1\\bin;",
+    "JRE_HOME": "C:\\Program Files (x86)\\Java\\jre1.8.0_281",
+    "LARAGON_ROOT": "C:\\laragon\\",
+    "LOCALAPPDATA": "C:\\Users\\Pocky\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-C7C4TQ9",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OneDrive": "C:\\Users\\Pocky\\OneDrive",
+    "OPENSSL_CONF": "C:\\laragon\\bin\\apache\\httpd-2.4.35-win64-VC15\\conf\\openssl.cnf",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\Pocky\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\Pocky\\AppData\\Roaming\\npm;C:\\Users\\Pocky\\AppData\\Roaming\\Composer\\vendor\\bin;;C:\\laragon\\bin\\laragon\\utils;C:\\laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\laragon\\bin\\composer;C:\\laragon\\bin\\apache\\httpd-2.4.35-win64-VC15\\bin;C:\\laragon\\bin\\redis\\redis-x64-3.2.100;C:\\laragon\\bin\\nodejs\\node-v12;C:\\laragon\\bin\\nginx\\nginx-1.16.0;C:\\laragon\\bin\\notepad++;C:\\laragon\\bin\\telnet;C:\\laragon\\bin\\ngrok;C:\\laragon\\bin\\git\\bin;C:\\laragon\\bin\\git\\cmd;C:\\laragon\\bin\\git\\usr\\bin;C:\\laragon\\bin\\git\\mingw64\\bin;C:\\laragon\\bin;C:\\laragon\\usr\\bin;C:\\laragon\\bin\\putty;C:\\laragon\\bin\\cmder\\bin;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Users\\Pocky\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2020.3.1\\bin;C:\\Users\\Pocky\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Pocky\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Pocky\\AppData\\Roaming\\npm;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\share\\vim\\vim74;C:\\laragon\\bin\\cmder\\;",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9e0d",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "C\bL\bI\bN\bK\b \b$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SVN_SSH": "C:\\\\Program Files\\\\Git\\\\bin\\\\ssh.exe",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\Pocky\\AppData\\Local\\Temp",
+    "TERM": "cygwin",
+    "TER_TITLE": "PaydisPodBot",
+    "TMP": "C:\\Users\\Pocky\\AppData\\Local\\Temp",
+    "user-aliases": "C:\\laragon\\bin\\cmder\\config\\user-aliases.cmd",
+    "USERDOMAIN": "DESKTOP-C7C4TQ9",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-C7C4TQ9",
+    "USERNAME": "Pocky",
+    "USERPROFILE": "C:\\Users\\Pocky",
+    "USER_DIR": "C:\\laragon\\usr",
+    "USR_DIR": "C:\\laragon\\usr",
+    "verbose-output": "0 ",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "C:\\laragon\\bin\\nodejs\\node-v12\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll"
+  ]
+}

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/PaydiLuv/PaydisPodBot#readme",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "read-excel-file": "^5.0.0"
   }
 }
